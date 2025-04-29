@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Manav Batra: Welcome to my Portfolio</title>
-  <meta content="" name="description">
+  <title>Manav Batra | Welcome to my Portfolio</title>
+  <meta content="Author: Manav Batra, Personal Portfolio" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/portfolio-favicon.jpg" rel="icon">
+  <link href="assets/img/portfolio-favicon.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,6 +26,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Template Solar CSS Files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/solar/main.css">
+  <link href="assets/css/fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
 
   <!-- EmailJS for contact form -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -64,22 +68,77 @@
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experience</span></a></li>
         <li><a href="#certifications" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Certifications</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
   </div>
-</header><!-- End Header -->
+</header><!-- End Heade.align-items-centerr -->
 
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-  <div class="hero-container" data-aos="fade-in">
-    <h1>Manav Batra</h1>
-    <p>I'm <span class="typed" data-typed-items="a Software Engineer, an API Designer"></span></p>
-  </div>
-</section><!-- End Hero -->
+<section id="main-section">
+  <section id="welcome-section">
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h3>Hi! I'm</h3>
+        <h1>Manav Batra</h1>
+        <p><span class="typed" data-typed-items="A Software Engineer, An API Designer"></span></p>
+      </div>
+    </section>
 
+    <div class="orbit">
+      <ul class="orbit-wrap">
+        <li class="orbit-center">
+          <img src="assets/img/moon.png" alt="moon">
+        </li>
+        <li>
+          <ul class="ring-00">
+            <li><i class="orbit-icon fab fa-css3-alt"></i></li>
+            <li><i class="orbit-icon fab fa-html5"></i></li>
+            <li><i class="orbit-icon fab fa-bootstrap"></i></li>
+            <li><i class="orbit-icon fab fa-react"></i></li>
+            <li><i class="orbit-icon fab fa-js-square"></i></li>
+            <li><i class="orbit-icon fab fa-node fa-spin"></i></li>
+            <li><img src="assets/img/astronaut.png" alt="astronaut"></li>
+          </ul>
+        </li>
+        <li>
+          <ul class="ring-0">
+            <li><img src="assets/img/satellite.png" alt="setellite"></li>
+            <li><img src="assets/img/api.png" alt="api logo"></li>
+            <li><img src="assets/img/c++.png" alt="c++ logo"></li>
+            <li><img src="assets/img/vscode.png" alt="vscode logo"></li>
+            <li><img src="assets/img/python.png" alt="python logo"></li>
+            <li><img src="assets/img/java.png" alt="java logo"></li>
+            <li><img src="assets/img/intellij.png" alt="intellij logo"></li>
+          </ul>
+        </li>
+        <li>
+
+          <ul class="ring-1">
+            <li><i class="orbit-icon fab fa-github"></i></li>
+            <li><i class="orbit-icon fab fa-git"></i></li>
+            <li><img src="assets/img/mysql.png" alt="mysql logo"></li>
+            <li><img class="postgres" src="assets/img/docker.jpg" alt="postgresql logo"></li>
+            <li><img src="assets/img/mongodb.png" alt="mongodb logo"></li>
+            <li><img src="assets/img/small_moon.png" alt="small moon"></li>
+          </ul>
+        </li>
+        <li>
+          <ul class="ring-2">
+            <li><img src="assets/img/gcp.png" alt="gcp logo"></li>
+            <li><img src="assets/img/aws.png" alt="aws logo"></li>
+            <li><img src="assets/img/rocket.png" alt="rocket"></li>
+            <li><img src="assets/img/postman.png" alt="postman logo"></li>
+            <li><img src="assets/img/eclipse.png" alt="eclipse logo"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+</section>
+<!-- End Hero -->
 <main id="main">
 
   <!-- ======= About Section ======= -->
@@ -232,11 +291,11 @@
   </section><!-- End Skills Section -->
 
   <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
+  <section id="experience" class="resume">
     <div class="container">
 
       <div class="section-title">
-        <h2>Resume</h2>
+        <h2>Experience</h2>
       </div>
 
       <div class="row">
